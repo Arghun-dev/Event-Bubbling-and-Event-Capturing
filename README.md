@@ -20,5 +20,8 @@ With the addEventListener() method you can specify the propagation type by using
 The default value is false, which will use the bubbling propagation, when the value is set to true, the event uses the capturing propagation.
 
 Example
+ 
+```js
 document.getElementById("myP").addEventListener("click", myFunction, true);
 document.getElementById("myDiv").addEventListener("click", myFunction, false);
+```
